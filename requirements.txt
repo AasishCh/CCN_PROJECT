@@ -1,4 +1,0 @@
-pywhisper
-pyaudio
-wave
-gtts
