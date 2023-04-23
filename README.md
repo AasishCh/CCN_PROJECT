@@ -128,6 +128,19 @@ In summary, we have researched and chosen appropriate technologies, APIs, packag
 
 ## Update on Iteration 4
 
+### Client-Server Architecture:
+* The client-server architecture has been implemented in the project where the client runs on one laptop, and it contains two servers where transcribing speech to text is on one server, and converting text to voice of prescribed language is on the other server. 
+* This architecture separates the two critical tasks into separate servers, and it enables efficient use of resources. 
+* The architecture also enables scalability and allows for easy deployment on remote servers.
+
+### New feature:
+* The new feature added to the project enables users to translate a given text into multiple speech outputs with different languages. This means that users can choose from a variety of languages and have the translated text converted to speech in the language of their choice.
+* This new feature enhances the usability of the project by providing a way for users to consume the translated text without having to read it. 
+* The Translate package supports multiple languages and can perform translations in real-time, allowing the user to quickly and easily understand the content of the audio file.
+
+* The audio file is processed locally on the user's device, and the resulting text is presented on the Streamlit user interface. This means that the processing of the audio file is performed on the client-side, which reduces the load on the servers. 
+* Once the audio is converted to text, the user has the option to translate the text into any language of their choice using the Translate package.
+
 ## Iteration 5
 * Prepare the documentation for the project.
 * Create the presentation and deliver the final project.
