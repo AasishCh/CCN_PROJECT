@@ -125,6 +125,9 @@ In summary, we have researched and chosen appropriate technologies, APIs, packag
 * Deploy the project on the cloud provider's platform and initiate system testing.
 * Test the working condition of the system and check for any issues or errors.
 * If issues are found, analyze the root cause and take necessary actions to resolve them.
+
+## Update on Iteration 4
+
 ## Iteration 5
 * Prepare the documentation for the project.
 * Create the presentation and deliver the final project.
