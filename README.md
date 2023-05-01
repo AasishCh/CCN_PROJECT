@@ -47,7 +47,7 @@ Step6:
   
 Step 7:
   * Make sure your Streamlit web application is running locally on your machine and is accessible through your web browser at http://localhost:8501.
-  * Open a terminal or command prompt and enter the following command, replacing example with a unique subdomain name
+  * Open a terminal or command prompt and enter the following command, replacing example with a unique subdomain name<br>
 Commands:<br>
 **ssh -R voicetotext.serveo.net:80:localhost:8501 serveo.net** 
   * Press Enter to run the command. Serveo will establish an SSH tunnel to your local machine and generate a public URL that you can use to access your Streamlit web application.
