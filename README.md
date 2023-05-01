@@ -17,11 +17,11 @@ Step1: Install Anaconda
   * Install Anaconda on your computer by downloading and running the installation file from the official Anaconda website.
 <br><br>
 Step2: Clone the repository
-  command: git clone https://github.com/AasishCh/CCN_PROJECT
+  * command: git clone https://github.com/AasishCh/CCN_PROJECT
 <br><br>
 Step3: Create Virtual Environment and Install Packages
   * Create a new virtual environment and install all the packages and libraries described in the "requirements.txt" file.
-  commands:
+  * commands:
     1. conda create --name ccn_project
     2. pip install pywhisper==1.0.6
     3. pip install streamlit==1.20.0
@@ -34,11 +34,13 @@ Step3: Create Virtual Environment and Install Packages
     10. pip install wave==0.0.2
 <br><br>
 Step4: Place all the files in appropriate folders
-  * Activate the virtual environment by running the following command: “codeconda activate myenv”, This will activate the virtual environment you just created, allowing you to use the Python packages and environment settings specific to that environment. The python code and the audio file should be placed in the "ccn_project" virtual environment(Where the anaconda is installed). Make sure that streamlit_app.py and path_of_file.wav under same folder. On my laptop the path is "C:/ProgramData/Anaconda3/envs/sample_ccn".
+  * Activate the virtual environment by running the following command: “codeconda activate myenv”, This will activate the virtual environment you just created, allowing you to use the Python packages and environment settings specific to that environment. 
+  * The python code and the audio file should be placed in the "ccn_project" virtual environment(Where the anaconda is installed). Make sure that streamlit_app.py and path_of_file.wav under same folder. 
+  * On my laptop the path is "C:/ProgramData/Anaconda3/envs/sample_ccn".
 
 Step5:
   * Navigate to the folder where your code and required packages exist. Once in the correct directory, run the command "streamlit run streamlit_app.py" to start the application. This will launch a local server and open the application in your default web browser. 
-  commands:
+  * commands:
     streamlit run streamlit_app.py
 Step6:
   * If any errors occur, check that all required dependencies are installed by running the following command: “pip install -r requirements.txt”
