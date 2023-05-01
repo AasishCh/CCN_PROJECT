@@ -141,6 +141,6 @@ In summary, we have researched and chosen appropriate technologies, APIs, packag
 * The audio file is processed locally on the user's device, and the resulting text is presented on the Streamlit user interface. This means that the processing of the audio file is performed on the client-side, which reduces the load on the servers. 
 * Once the audio is converted to text, the user has the option to translate the text into any language of their choice using the Translate package.
 
-## Iteration 5
+## Iteration 5 
 * Prepare the documentation for the project.
 * Create the presentation and deliver the final project.
