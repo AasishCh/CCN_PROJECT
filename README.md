@@ -156,11 +156,10 @@ In summary, we have researched and chosen appropriate technologies, APIs, packag
 * We have used SERVEO which is used to expose the local servers to the internet. It used SSH to create a secure tunnel between the users local machine and a publicly accessible server. 
 * To use Serveo to make your local Streamlit web application public and accessible to all users, follow these steps:
 
-Make sure your Streamlit web application is running locally on your machine and is accessible through your web browser at http://localhost:8501.
-Open a terminal or command prompt and enter the following command, replacing example with a unique subdomain name:
-ssh -R voicetotext.serveo.net:80:localhost:8501 serveo.net
-Press Enter to run the command. Serveo will establish an SSH tunnel to your local machine and generate a public URL that you can use to access your Streamlit web application.
-
+Make sure your Streamlit web application is running locally on your machine and is accessible through your web browser at http://localhost:8501.<br>
+Open a terminal or command prompt and enter the following command, replacing example with a unique subdomain name <br>
+**ssh -R voicetotext.serveo.net:80:localhost:8501 serveo.net** <br>
+Press Enter to run the command. Serveo will establish an SSH tunnel to your local machine and generate a public URL that you can use to access your Streamlit web application.<br>
 Copy the public URL provided by Serveo and share it with your users. They can open the URL in their web browser to access your Streamlit web application.
 
 ## System Requirements
