@@ -154,6 +154,15 @@ On my laptop the path is C:/ProgramData/Anaconda3/envs/sample_ccn
 
 * Navigate to the folder where your code and required packages exist. Once in the correct directory, run the command "streamlit run streamlit_app.py" to start the application. This will launch a local server and open the application in your default web browser.
 * If any errors occur, check that all required dependencies are installed by running the following command: “pip install -r requirements.txt”
+* We have used SERVEO which is used to expose the local servers to the internet. It used SSH to create a secure tunnel between the users local machine and a publicly accessible server. 
+* To use Serveo to make your local Streamlit web application public and accessible to all users, follow these steps:
+
+Make sure your Streamlit web application is running locally on your machine and is accessible through your web browser at http://localhost:8501.
+Open a terminal or command prompt and enter the following command, replacing example with a unique subdomain name:
+ssh -R voicetotext.serveo.net:80:localhost:8501 serveo.net
+Press Enter to run the command. Serveo will establish an SSH tunnel to your local machine and generate a public URL that you can use to access your Streamlit web application.
+
+Copy the public URL provided by Serveo and share it with your users. They can open the URL in their web browser to access your Streamlit web application.
 
 ## Iteration 5 
 * Prepare the documentation for the project.
