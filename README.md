@@ -146,12 +146,12 @@ In summary, we have researched and chosen appropriate technologies, APIs, packag
 
 ## Step by step implementation
 
-* Install Anaconda on your computer by downloading and running the installation file from the official Anaconda website.  
-* Create a new virtual environment using the packages described in the "requirements.txt" file.   To create a new virtual environment, open a terminal or command prompt and run the following command:  “conda create --name myenv --file requirements.txt”  Replace "myenv" with the name you want to give your virtual environment. 
-* Place all the required files, such as "streamlit_app.py" and any audio files needed for the transcribing function, into the virtual environment folder you just created. This will help ensure that your code and data are kept separate from other projects and packages on your system. 
-* Activate the virtual environment by running the following command:  “codeconda activate myenv”   This will activate the virtual environment you just created, allowing you to use the Python packages and environment settings specific to that environment. 
-* Navigate to the folder where your code and required packages exist. Once in the correct directory, run the command "streamlit run streamlit_app.py" to start the application. This will launch a local server and open the application in your default web browser. 
-* If any errors occur, check that all required dependencies are installed by running the following command:  “pip install -r requirements.txt”
+* Install Anaconda on your computer by downloading and running the installation file from the official Anaconda website. 
+* Create a new virtual environment using the packages described in the "requirements.txt" file. To create a new virtual environment, open a terminal or command prompt and run the following command: “conda create --name myenv --file requirements.txt”, Replace "myenv" with the name you want to give your virtual environment.
+* Place all the required files, such as "streamlit_app.py" and any audio files needed for the transcribing function, into the virtual environment folder you just created. This will help ensure that your code and data are kept separate from other projects and packages on your system.
+* Activate the virtual environment by running the following command: “codeconda activate myenv”, This will activate the virtual environment you just created, allowing you to use the Python packages and environment settings specific to that environment.
+* Navigate to the folder where your code and required packages exist. Once in the correct directory, run the command "streamlit run streamlit_app.py" to start the application. This will launch a local server and open the application in your default web browser.
+* If any errors occur, check that all required dependencies are installed by running the following command: “pip install -r requirements.txt”
 
 ## Iteration 5 
 * Prepare the documentation for the project.
