@@ -18,11 +18,11 @@ This project focuses on developing a user-friendly application for real-time voi
   * Install Anaconda on your computer by downloading and running the installation file from the official Anaconda website.
 
 **Step 2:** Clone the repository
-  * command: git clone https://github.com/AasishCh/CCN_PROJECT
+  * Command: git clone https://github.com/AasishCh/CCN_PROJECT
 
 **Step 3:** Create Virtual Environment and Install Packages
   * Create a new virtual environment and install all the packages and libraries described in the "requirements.txt" file.
-  * commands:
+  * Commands:
     1. conda create --name ccn_project
     2. conda activate ccn_project
     3. pip install pywhisper==1.0.6
@@ -30,7 +30,7 @@ This project focuses on developing a user-friendly application for real-time voi
     5. pip install gtts==2.3.1
     6. pip install pyaudio==0.2.13
     7. pip install numpy==1.24.2
-    8. pip installtranslate==3.6.1
+    8. pip install translate==3.6.1
     9. pip install pydub==0.25.1
     10. pip install deepspeech==0.9.3
     11. pip install wave==0.0.2
