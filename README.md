@@ -1,13 +1,13 @@
 # CCN_PROJECT - Group 9
+
 # Team Members
 * Aasish Chunduri
 * Yaswanth Mareedu
 * Govind Rahul Mathamsetti
 * Manoj Kumar Reddy Janapala
+
 # INTRODUCTION (Voice-to-Text)
 This project focuses on developing a user-friendly application for real-time voice-to-text conversion and multilingual text-to-speech synthesis, leveraging advancements in AI and deep learning. Utilizing the WebRTC protocol for real-time communication, we employ Mozilla's deepspeech model for speech recognition, and Streamlit library for the interface. For multilingual text-to-speech synthesis, we use the Pywhisper model and Google Text-to-Speech (gTTS) library. The methodology includes capturing audio streams, processing them with deepspeech, displaying transcriptions in real-time, and enabling users to select a target language for speech synthesis with Pywhisper and gTTS.
-
-
 
 # Final Implementation 
 * Our code has been updated to include the WebRTC protocol, which enables real-time voice-to-text conversion using the DeepSpeech model. This update allows the application to seamlessly convert spoken words to text in real-time, resulting in a more efficient and user-friendly experience.
@@ -35,17 +35,17 @@ This project focuses on developing a user-friendly application for real-time voi
     10. pip install wave==0.0.2
 
 **Step 4:** Place all the files in appropriate folders
-  * Activate the virtual environment by running the following command: **codeconda activate myenv**, This will activate the virtual environment you just created, allowing you to use the Python packages and environment settings specific to that environment. 
+  * Activate the virtual environment by running the following command: **conda activate myenv**, This will activate the virtual environment you just created, allowing you to use the Python packages and environment settings specific to that environment. 
   * The python code and the audio file should be placed in the "ccn_project" virtual environment(Where the anaconda is installed). Make sure that streamlit_app.py and path_of_file.wav under same folder. 
   * On my laptop the path is "C:/ProgramData/Anaconda3/envs/sample_ccn".
 
 **Step 5:**
   * Navigate to the folder where your code and required packages exist. Once in the correct directory, run the command "streamlit run streamlit_app.py" to start the application. This will launch a local server and open the application in your default web browser. 
-  * command: **streamlit run streamlit_app.py**
-     
+  * Command: **streamlit run streamlit_app.py**
      
 **Step 6:**
-  * If any errors occur, check that all required dependencies are installed by running the following command: **pip install -r requirements.txt**
+  * If any errors occur, check that all required dependencies are installed by running the following command 
+  * Command: **pip install -r requirements.txt**
   * We have used SERVEO which is used to expose the local servers to the internet. It used SSH to create a secure tunnel between the users local machine and a publicly accessible server. 
   * To use Serveo to make your local Streamlit web application public and accessible to all users, follow these steps:
 
