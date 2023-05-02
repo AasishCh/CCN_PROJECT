@@ -24,15 +24,16 @@ This project focuses on developing a user-friendly application for real-time voi
   * Create a new virtual environment and install all the packages and libraries described in the "requirements.txt" file.
   * commands:
     1. conda create --name ccn_project
-    2. pip install pywhisper==1.0.6
-    3. pip install streamlit==1.20.0
-    4. pip install gtts==2.3.1
-    5. pip install pyaudio==0.2.13
-    6. pip install numpy==1.24.2
-    7. pip installtranslate==3.6.1
-    8. pip install pydub==0.25.1
-    9. pip install deepspeech==0.9.3
-    10. pip install wave==0.0.2
+    2. conda activate ccn_project
+    3. pip install pywhisper==1.0.6
+    4. pip install streamlit==1.20.0
+    5. pip install gtts==2.3.1
+    6. pip install pyaudio==0.2.13
+    7. pip install numpy==1.24.2
+    8. pip installtranslate==3.6.1
+    9. pip install pydub==0.25.1
+    10. pip install deepspeech==0.9.3
+    11. pip install wave==0.0.2
 
 **Step 4:** Place all the files in appropriate folders
   * Activate the virtual environment by running the following command: **conda activate myenv**, This will activate the virtual environment you just created, allowing you to use the Python packages and environment settings specific to that environment. 
